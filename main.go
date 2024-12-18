@@ -72,7 +72,7 @@ func (s ParcelService) NextStatus(number int) error {
 	if err != nil {
 		return err
 	}
-
+	//
 	var nextStatus string
 	switch parcel.Status {
 	case ParcelStatusRegistered:
